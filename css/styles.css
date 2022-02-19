@@ -1,0 +1,184 @@
+body{
+    font-family: "Montserrat", san-serif;
+}
+
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-bold", sans-serif;
+}
+
+p{
+  font-size: 0.9em;
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 100px;
+}
+
+/* navigation Bar */
+
+.navbar{
+  padding: 0 0 40px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.navbar-collapse{
+  position: relative;
+  left: 40px;
+}
+
+.navbar-item{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin-top: 30px;
+}
+
+@media (max-width:993px){
+  .download-rows{
+    text-align: center;
+  }
+
+  .title-dog-image{
+    width: 22%;
+    transform: rotate(0deg);
+    right: 20%;
+    position: static;
+    text-align: center;
+  }
+}
+
+/* dog image */
+
+.title-dog-image{
+  width: 22%;
+  transform: rotate(25deg);
+  right: 20%;
+  position:absolute;
+}
+
+
+
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 3rem;
+}
+
+/* Testimonials */
+#title{
+  background-color: #FF4C68;
+  color: #fff;
+  position: relative;
+  z-index: -2;
+}
+
+#features{
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 7% 15% 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logos{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card{
+  text-align: center;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 5% 3%;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.cta-stat{
+  font-family: "Montserrat-Black",sans-serif;
+  font-size: 3rem;
+  padding: 100px 0;
+  color: white;
+}
+
+.cta-btn{
+  margin: -10px 40px 100px 40px;
+  font-family: "Montserrat-bold", sans-serif;
+}
+
+.white{
+  background-color: white;
+}
+
+#footer{
+  padding: 100px;
+  text-align: center;
+}
+
+.foot{
+  padding: 0% 1%;
+}
+
+.footp{
+  padding-top: 10px;
+}
